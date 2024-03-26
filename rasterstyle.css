@@ -1,0 +1,83 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('paris.jpeg');
+    background-size: cover;
+}
+
+#foreground-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%; 
+}
+
+h1 {
+    color: #3b043b;
+}
+
+p {
+    color: #000000;
+    margin-bottom: 20px;
+    padding: 10px; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+img {
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a:visited {
+    color: #ffffff; /* Visited link color */
+}
+
+a:hover {
+    color: #6a0788; /* Link color on hover */
+}
+
+a:active {
+    color: #008000; /* Active link color */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.goButton {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #b688ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    z-index: 1;
+    position: relative;
+}
+
+.goButton:hover {
+    background-color: #fb95ff;
+}
+
+.special-paragraph {
+    font-weight: bold;
+    font-style: Serif;
+    font-size: 30px;
+    color:#000000
+}
+
+.special-heading {
+    font-weight: bold;
+}
+
+
